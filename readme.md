@@ -20,7 +20,7 @@ Likely compatible with:
 
 ### Windows 
 
-<a href="https://github.com/itsisaac19/system-monitor/releases/download/v1.0.2-alpha/system-monitor.Setup.1.0.2.exe">system-monitor-0.0.1.exe</a> ~ 50 MB
+<a href="https://github.com/itsisaac19/system-monitor/releases/download/v1.0.2-alpha/system-monitor.Setup.1.0.2.exe">system-monitor-1.0.2.exe</a> ~ 50 MB
 
 ### MacOS  
 
