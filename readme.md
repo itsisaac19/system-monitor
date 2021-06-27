@@ -1,7 +1,7 @@
 # system-monitor
 A simple system monitoring tool. 
 
-Status: <a href="https://github.com/itsisaac19/system-monitor/readme.md#system-monitor">Open Beta</a> 
+Status: <a href="https://github.com/itsisaac19/system-monitor/blob/main/readme.md#system-monitor">Open Beta</a> 
 
 ## Compatibility
 
