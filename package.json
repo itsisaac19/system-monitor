@@ -1,0 +1,61 @@
+{
+  "name": "system-monitor",
+  "version": "1.0.2",
+  "license": "MIT",
+  "description": "Simple system monitor.",
+  "author": "Isaac Tsai <isaactsai6@gmail.com> (https://github.com/itsisaac19)",
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "compile": "electron-webpack",
+    "dist": "electron-builder",
+    "dist-all": "electron-builder -mw",
+    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+  },
+  "build": {
+    "appId": "com.electron.isaac",
+    "asar": true,
+    "mac": {
+      "target": "dmg",
+      "icon": "build/coinfocropped.icns"
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ],
+      "icon": "build/coinfocropped.icns"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "NSIS",
+      "icon": "build/sysmonitor_256.ico"
+    }
+  },
+  "dependencies": {
+    "computer-name": "^0.1.0",
+    "electron-titlebar-windows": "^3.0.0",
+    "os-utils": "^0.0.14",
+    "platform": "^1.3.6",
+    "source-map-support": "^0.5.16",
+    "systeminformation": "^5.7.7"
+  },
+  "devDependencies": {
+    "electron": "8.2.0",
+    "electron-builder": "^22.4.1",
+    "electron-webpack": "^2.8.2",
+    "webpack": "~4.42.1"
+  }
+}
