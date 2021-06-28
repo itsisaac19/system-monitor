@@ -247,8 +247,7 @@ class Task {
   constructor(process) {
     this.name = process.name
     this.cpuUsage = (process.cpu / pCores).toFixed(1);
-    this.memUsage = process.mem
-    this.memUsage = process.mem
+    this.memUsage = process.mem.toFixed(1)
   }
   HTML() {
     let wrapper = document.createElement("div");
