@@ -28,21 +28,23 @@ function createMainWindow() {
     });
   
     window.removeMenu()
+  } else {
+    window = new BrowserWindow({
+      backgroundColor: '#171920',
+      width: 610, 
+      minWidth: 400,
+      height: 480,
+      minHeight: 155,
+      titleBarStyle: 'hiddenInset',
+      webPreferences: {
+        nodeIntegration: true,
+        contextIsolation: false,
+        enableRemoteModule: true
+      }
+    });
   }
 
-  window = new BrowserWindow({
-    backgroundColor: '#171920',
-    width: 610, 
-    minWidth: 400,
-    height: 480,
-    minHeight: 155,
-    titleBarStyle: 'hiddenInset',
-    webPreferences: {
-      nodeIntegration: true,
-      contextIsolation: false,
-      enableRemoteModule: true
-    }
-  });
+
 
   if (isDevelopment) {
     //window.webContents.openDevTools()
