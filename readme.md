@@ -1,7 +1,7 @@
 # system-monitor
 A simple system monitoring tool. 
 
-Latest release: <a href="https://github.com/itsisaac19/system-monitor/releases/tag/v0.0.1-beta">v0.0.1-beta</a>
+Latest release: <a href="https://github.com/itsisaac19/system-monitor/releases/tag/v0.0.2-beta">v0.0.2-beta</a>
 
 ## Compatibility
 
@@ -20,8 +20,8 @@ Likely compatible with:
 
 ### Windows 
 
-<a href="https://github.com/itsisaac19/system-monitor/releases/download/v1.0.2-alpha/system-monitor.Setup.1.0.2.exe">system-monitor-1.0.2.exe</a> ~ 50 MB
+<a href="https://github.com/itsisaac19/system-monitor/releases/download/v0.0.2-beta/system-monitor.Setup.0.0.2.exe">system-monitor-0.0.2.exe</a> ~ 50 MB
 
 ### MacOS  
 
-<a href="https://github.com/itsisaac19/system-monitor/releases/download/v0.0.1-beta/system-monitor-0.0.1.dmg">system-monitor-0.0.1.dmg</a> ~ 70 MB
+<a href="https://github.com/itsisaac19/system-monitor/releases/download/v0.0.2-beta/system-monitor-0.0.2.dmg">system-monitor-0.0.2.dmg</a> ~ 67 MB
